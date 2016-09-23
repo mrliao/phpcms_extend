@@ -275,3 +275,8 @@ dduFunc.getMoreList = function(obj, appendId, fetchUrl, templateFlag, template, 
 ;
 
 ```
+### example
+```html
+        <h4 id="show-more" onclick="dduFunc.getMoreList(this, 'blog_list_page_ul', '{siteurl($siteid)}/api.php?op=get_more&thumb=1&&tag=content_lists&catid={$catid}', 'newsTpl', null, 3);">{L('show_more')}</h4>
+
+```
